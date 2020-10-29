@@ -36,6 +36,17 @@ const Navbar = () => {
                 Contact
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" exact to="/contact">
+                Contact1
+              </NavLink>
+            </li>
+
+            <li className="nav-item">
+              <NavLink className="nav-link" exact to="/contact">
+                Contact2
+              </NavLink>
+            </li>
           </ul>
         </div>
 
